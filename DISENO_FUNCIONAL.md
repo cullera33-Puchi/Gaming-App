@@ -237,6 +237,15 @@ Cuatro fases sin fechas: las tres primeras dejan la app completa y la cuarta rec
 | 3. Deseados y precios | Lista de deseados, precios de Steam y eShop, precio objetivo, enlaces a Deku Deals | Precios actualizados a diario sin coste |
 | 4. Próximas mejoras | Ver tabla siguiente | Orden según uso, tras la fase 3 |
 
+**Tareas de datos (fuera de fase)**
+
+| Tarea | Qué hace | Cuándo |
+| --- | --- | --- |
+| Copia de seguridad completa | Exportar todos los datos (histórico, backlog, pendientes, partidas en curso y ajustes) y guardar la copia fuera del repositorio | En cuanto la carga inicial esté revisada en el móvil |
+| Retirar los datos del repositorio | Quitar `data/` del repositorio y de la app publicada; la carga inicial pasa a hacerse desde un fichero elegido en el móvil | Cuando la app esté estable y la copia de seguridad hecha |
+
+Al quitar `data/`, los ficheros siguen en el historial de git del repositorio público. Si se quieren borrar del todo, hay que reescribir el historial.
+
 **Próximas mejoras (fase 4)**
 
 | Mejora | Qué hace |
