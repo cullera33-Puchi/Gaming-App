@@ -1,0 +1,1068 @@
+{
+  "version": 1,
+  "generado": "2026-10-27",
+  "partidas": [
+    {
+      "anio": 2021,
+      "titulo_original": "Tomb Raider Shadow of",
+      "titulo": "Shadow of the Tomb Raider",
+      "estado": "Terminado",
+      "nota": 7.5,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 75
+    },
+    {
+      "anio": 2021,
+      "titulo_original": "Xenoblade 2",
+      "titulo": "Xenoblade Chronicles 2",
+      "estado": "Terminado",
+      "nota": 9.0,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 91
+    },
+    {
+      "anio": 2021,
+      "titulo_original": "Xenoblade 1",
+      "titulo": "Xenoblade Chronicles: Definitive Edition",
+      "estado": "Terminado",
+      "nota": 7.75,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 78
+    },
+    {
+      "anio": 2021,
+      "titulo_original": "Fire Emblem Three Hopes",
+      "titulo": "Fire Emblem Warriors: Three Hopes",
+      "estado": "Terminado",
+      "nota": 7.75,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 78
+    },
+    {
+      "anio": 2021,
+      "titulo_original": "Zelda Skyward Sword",
+      "titulo": "The Legend of Zelda: Skyward Sword HD",
+      "estado": "Terminado",
+      "nota": 8.75,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 87
+    },
+    {
+      "anio": 2021,
+      "titulo_original": "Unmetal",
+      "titulo": "UnMetal",
+      "estado": "Terminado",
+      "nota": 9.0,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 90
+    },
+    {
+      "anio": 2021,
+      "titulo_original": "Deaths Door",
+      "titulo": "Death's Door",
+      "estado": "Terminado",
+      "nota": 7.25,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 72
+    },
+    {
+      "anio": 2021,
+      "titulo_original": "Trek to yomi",
+      "titulo": "Trek to Yomi",
+      "estado": "Terminado",
+      "nota": 6.5,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 65
+    },
+    {
+      "anio": 2021,
+      "titulo_original": "The Gunk",
+      "titulo": "The Gunk",
+      "estado": "Terminado",
+      "nota": 5.0,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 50
+    },
+    {
+      "anio": 2021,
+      "titulo_original": "Inside",
+      "titulo": "Inside",
+      "estado": "Terminado",
+      "nota": 7.5,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 75
+    },
+    {
+      "anio": 2022,
+      "titulo_original": "Bayonetta",
+      "titulo": "Bayonetta",
+      "estado": "Terminado",
+      "nota": 7.5,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 75
+    },
+    {
+      "anio": 2022,
+      "titulo_original": "Control",
+      "titulo": "Control",
+      "estado": "Terminado",
+      "nota": 8.25,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 82
+    },
+    {
+      "anio": 2022,
+      "titulo_original": "Hades",
+      "titulo": "Hades",
+      "estado": "Terminado",
+      "nota": 8.75,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 88
+    },
+    {
+      "anio": 2022,
+      "titulo_original": "Monster Hunter Rise",
+      "titulo": "Monster Hunter Rise",
+      "estado": "Terminado",
+      "nota": 9.25,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 93
+    },
+    {
+      "anio": 2022,
+      "titulo_original": "Super Mario Odissey",
+      "titulo": "Super Mario Odyssey",
+      "estado": "Terminado",
+      "nota": 9.5,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 95
+    },
+    {
+      "anio": 2022,
+      "titulo_original": "God of war",
+      "titulo": "God of War (2018)",
+      "estado": "Terminado",
+      "nota": 8.5,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 85
+    },
+    {
+      "anio": 2022,
+      "titulo_original": "Spiderman",
+      "titulo": "Marvel's Spider-Man",
+      "estado": "Terminado",
+      "nota": 7.5,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 75
+    },
+    {
+      "anio": 2022,
+      "titulo_original": "Batman Arkahm Asylum",
+      "titulo": "Batman: Arkham Asylum",
+      "estado": "Terminado",
+      "nota": 8.5,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 85
+    },
+    {
+      "anio": 2022,
+      "titulo_original": "Doki Doki Literature Club",
+      "titulo": "Doki Doki Literature Club",
+      "estado": "Terminado",
+      "nota": 5.0,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 50
+    },
+    {
+      "anio": 2022,
+      "titulo_original": "Tinikyn",
+      "titulo": "Tinykin",
+      "estado": "Terminado",
+      "nota": 7.75,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 78
+    },
+    {
+      "anio": 2022,
+      "titulo_original": "As Dusk Falls",
+      "titulo": "As Dusk Falls",
+      "estado": "Terminado",
+      "nota": 6.0,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 60
+    },
+    {
+      "anio": 2022,
+      "titulo_original": "Zelda Breath of the Wild",
+      "titulo": "The Legend of Zelda: Breath of the Wild",
+      "estado": "Terminado",
+      "nota": 10.0,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 100
+    },
+    {
+      "anio": 2023,
+      "titulo_original": "The Witcher 3",
+      "titulo": "The Witcher 3: Wild Hunt",
+      "estado": "Terminado",
+      "nota": 9.25,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 92
+    },
+    {
+      "anio": 2023,
+      "titulo_original": "Metroid Prime",
+      "titulo": "Metroid Prime Remastered",
+      "estado": "Terminado",
+      "nota": 8.5,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 85
+    },
+    {
+      "anio": 2023,
+      "titulo_original": "Portal 1",
+      "titulo": "Portal",
+      "estado": "Terminado",
+      "nota": 8.5,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 85
+    },
+    {
+      "anio": 2023,
+      "titulo_original": "Advance Wars 1",
+      "titulo": "Advance Wars 1+2: Re-Boot Camp",
+      "estado": "Terminado",
+      "nota": 9.0,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 90
+    },
+    {
+      "anio": 2023,
+      "titulo_original": "Zelda Tears of the Kinfdom",
+      "titulo": "The Legend of Zelda: Tears of the Kingdom",
+      "estado": "Terminado",
+      "nota": 10.0,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 100
+    },
+    {
+      "anio": 2023,
+      "titulo_original": "What remains of Edith Finch",
+      "titulo": "What Remains of Edith Finch",
+      "estado": "Terminado",
+      "nota": 7.5,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 75
+    },
+    {
+      "anio": 2023,
+      "titulo_original": "God of War Ragnarok",
+      "titulo": "God of War Ragnarök",
+      "estado": "Terminado",
+      "nota": 8.0,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 80
+    },
+    {
+      "anio": 2023,
+      "titulo_original": "The Last of Us Part 1",
+      "titulo": "The Last of Us Part I",
+      "estado": "Terminado",
+      "nota": 9.75,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 98
+    },
+    {
+      "anio": 2023,
+      "titulo_original": "The Last of Us Part 2",
+      "titulo": "The Last of Us Part II",
+      "estado": "Terminado",
+      "nota": 9.75,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 97
+    },
+    {
+      "anio": 2023,
+      "titulo_original": "Final Fantasy VII Remake",
+      "titulo": "Final Fantasy VII Remake",
+      "estado": "Terminado",
+      "nota": 8.0,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 80
+    },
+    {
+      "anio": 2023,
+      "titulo_original": "Cocoon",
+      "titulo": "Cocoon",
+      "estado": "Terminado",
+      "nota": 8.75,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 87
+    },
+    {
+      "anio": 2023,
+      "titulo_original": "Jusant",
+      "titulo": "Jusant",
+      "estado": "Terminado",
+      "nota": 8.25,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 82
+    },
+    {
+      "anio": 2023,
+      "titulo_original": "Diablo IV",
+      "titulo": "Diablo IV",
+      "estado": "Terminado",
+      "nota": 8.75,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 88
+    },
+    {
+      "anio": 2023,
+      "titulo_original": "Gris",
+      "titulo": "Gris",
+      "estado": "Terminado",
+      "nota": 8.5,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 86
+    },
+    {
+      "anio": 2024,
+      "titulo_original": "Hi-Fi Rush",
+      "titulo": "Hi-Fi Rush",
+      "estado": "Terminado",
+      "nota": 9.0,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 91
+    },
+    {
+      "anio": 2024,
+      "titulo_original": "Hellblade",
+      "titulo": "Hellblade: Senua's Sacrifice",
+      "estado": "Terminado",
+      "nota": 6.5,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 65
+    },
+    {
+      "anio": 2024,
+      "titulo_original": "Titanfall 2",
+      "titulo": "Titanfall 2",
+      "estado": "Terminado",
+      "nota": 9.0,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 91
+    },
+    {
+      "anio": 2024,
+      "titulo_original": "Final Fantasy XV",
+      "titulo": "Final Fantasy XV",
+      "estado": "Terminado",
+      "nota": 6.5,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 65
+    },
+    {
+      "anio": 2024,
+      "titulo_original": "Monster Hunter World",
+      "titulo": "Monster Hunter: World",
+      "estado": "Terminado",
+      "nota": 9.5,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 94
+    },
+    {
+      "anio": 2024,
+      "titulo_original": "Balatro",
+      "titulo": "Balatro",
+      "estado": "Terminado",
+      "nota": 9.5,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 95
+    },
+    {
+      "anio": 2024,
+      "titulo_original": "Alone in the Dark",
+      "titulo": "Alone in the Dark (2024)",
+      "estado": "Terminado",
+      "nota": 6.0,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 60
+    },
+    {
+      "anio": 2024,
+      "titulo_original": "Last Epoch",
+      "titulo": "Last Epoch",
+      "estado": "Terminado",
+      "nota": 9.0,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 91
+    },
+    {
+      "anio": 2024,
+      "titulo_original": "Ratchet and Clank Rift Apart",
+      "titulo": "Ratchet & Clank: Rift Apart",
+      "estado": "Terminado",
+      "nota": 7.5,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 75
+    },
+    {
+      "anio": 2024,
+      "titulo_original": "Elden Ring",
+      "titulo": "Elden Ring",
+      "estado": "Terminado",
+      "nota": 9.5,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 96
+    },
+    {
+      "anio": 2024,
+      "titulo_original": "Guardianes de la galaxia",
+      "titulo": "Marvel's Guardians of the Galaxy",
+      "estado": "Terminado",
+      "nota": 8.25,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 83
+    },
+    {
+      "anio": 2024,
+      "titulo_original": "Sea of stars",
+      "titulo": "Sea of Stars",
+      "estado": "Abandonado",
+      "nota": 7.25,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 72
+    },
+    {
+      "anio": 2024,
+      "titulo_original": "Spiderman 2",
+      "titulo": "Marvel's Spider-Man 2",
+      "estado": "Terminado",
+      "nota": 7.0,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 71
+    },
+    {
+      "anio": 2024,
+      "titulo_original": "Uncharted 1",
+      "titulo": "Uncharted: Drake's Fortune",
+      "estado": "Terminado",
+      "nota": 7.75,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 78
+    },
+    {
+      "anio": 2024,
+      "titulo_original": "Neva",
+      "titulo": "Neva",
+      "estado": "Terminado",
+      "nota": 7.0,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 70
+    },
+    {
+      "anio": 2024,
+      "titulo_original": "Detroit Become Human",
+      "titulo": "Detroit: Become Human",
+      "estado": "Terminado",
+      "nota": 7.5,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 75
+    },
+    {
+      "anio": 2024,
+      "titulo_original": "Chrono Trigger",
+      "titulo": "Chrono Trigger",
+      "estado": "Terminado",
+      "nota": 7.0,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 70
+    },
+    {
+      "anio": 2024,
+      "titulo_original": "Uncharted 2",
+      "titulo": "Uncharted 2: Among Thieves",
+      "estado": "Terminado",
+      "nota": 8.75,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 88
+    },
+    {
+      "anio": 2024,
+      "titulo_original": "Methapor Refantazio",
+      "titulo": "Metaphor: ReFantazio",
+      "estado": "Abandonado",
+      "nota": 8.0,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 80
+    },
+    {
+      "anio": 2024,
+      "titulo_original": "Path of exile 2 (early)",
+      "titulo": "Path of Exile 2",
+      "estado": "Terminado",
+      "nota": 9.5,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 94
+    },
+    {
+      "anio": 2025,
+      "titulo_original": "Death Stranding",
+      "titulo": "Death Stranding",
+      "estado": "Terminado",
+      "nota": 9.5,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 94
+    },
+    {
+      "anio": 2025,
+      "titulo_original": "Batman Arkaham City",
+      "titulo": "Batman: Arkham City",
+      "estado": "Terminado",
+      "nota": 9.0,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 89
+    },
+    {
+      "anio": 2025,
+      "titulo_original": "Uncharted 3",
+      "titulo": "Uncharted 3: Drake's Deception",
+      "estado": "Terminado",
+      "nota": 8.5,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 86
+    },
+    {
+      "anio": 2025,
+      "titulo_original": "Rise of the Ronin",
+      "titulo": "Rise of the Ronin",
+      "estado": "Abandonado",
+      "nota": 6.5,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 65
+    },
+    {
+      "anio": 2025,
+      "titulo_original": "Uncharted 4",
+      "titulo": "Uncharted 4: A Thief's End",
+      "estado": "Terminado",
+      "nota": 9.0,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 91
+    },
+    {
+      "anio": 2025,
+      "titulo_original": "Horizon Zero Dawn Remastered",
+      "titulo": "Horizon Zero Dawn Remastered",
+      "estado": "Terminado",
+      "nota": 8.25,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 82
+    },
+    {
+      "anio": 2025,
+      "titulo_original": "Ninja Gaiden 2 Black",
+      "titulo": "Ninja Gaiden 2 Black",
+      "estado": "Terminado",
+      "nota": 8.5,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 86
+    },
+    {
+      "anio": 2025,
+      "titulo_original": "Ghost of Tushima",
+      "titulo": "Ghost of Tsushima",
+      "estado": "Terminado",
+      "nota": 9.0,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 89
+    },
+    {
+      "anio": 2025,
+      "titulo_original": "Alan Wake 2",
+      "titulo": "Alan Wake 2",
+      "estado": "Abandonado",
+      "nota": 8.5,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 85
+    },
+    {
+      "anio": 2025,
+      "titulo_original": "Robocop The Rogue City",
+      "titulo": "RoboCop: Rogue City",
+      "estado": "Abandonado",
+      "nota": null,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": null
+    },
+    {
+      "anio": 2025,
+      "titulo_original": "Monster Hunter Wilds",
+      "titulo": "Monster Hunter Wilds",
+      "estado": "Terminado",
+      "nota": 9.25,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 93
+    },
+    {
+      "anio": 2025,
+      "titulo_original": "Dragon Age The Veilguard",
+      "titulo": "Dragon Age: The Veilguard",
+      "estado": "Abandonado",
+      "nota": 5.0,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 51
+    },
+    {
+      "anio": 2025,
+      "titulo_original": "Astrobot",
+      "titulo": "Astro Bot",
+      "estado": "Terminado",
+      "nota": 9.0,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 90
+    },
+    {
+      "anio": 2025,
+      "titulo_original": "Space Marine 2",
+      "titulo": "Warhammer 40,000: Space Marine 2",
+      "estado": "Abandonado",
+      "nota": 7.25,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 73
+    },
+    {
+      "anio": 2025,
+      "titulo_original": "It takes two",
+      "titulo": "It Takes Two",
+      "estado": "Abandonado",
+      "nota": 8.5,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 85
+    },
+    {
+      "anio": 2025,
+      "titulo_original": "F1 24",
+      "titulo": "F1 24",
+      "estado": "Terminado",
+      "nota": 8.5,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 85
+    },
+    {
+      "anio": 2025,
+      "titulo_original": "South of Midnight",
+      "titulo": "South of Midnight",
+      "estado": "Abandonado",
+      "nota": 4.5,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 45
+    },
+    {
+      "anio": 2025,
+      "titulo_original": "Clair Obscur: Expedition 33",
+      "titulo": "Clair Obscur: Expedition 33",
+      "estado": "Terminado",
+      "nota": 9.5,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 94
+    },
+    {
+      "anio": 2025,
+      "titulo_original": "GTA IV",
+      "titulo": "Grand Theft Auto IV",
+      "estado": "Abandonado",
+      "nota": 8.5,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 85
+    },
+    {
+      "anio": 2025,
+      "titulo_original": "Mario Kart: World",
+      "titulo": "Mario Kart World",
+      "estado": "Terminado",
+      "nota": 8.5,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 85
+    },
+    {
+      "anio": 2025,
+      "titulo_original": "Cyberpunk 2077 Ultimate Edition",
+      "titulo": "Cyberpunk 2077: Ultimate Edition",
+      "estado": "Terminado",
+      "nota": 9.0,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 91
+    },
+    {
+      "anio": 2025,
+      "titulo_original": "Ender Lilies: Quietus of the Knights",
+      "titulo": "Ender Lilies: Quietus of the Knights",
+      "estado": "Terminado",
+      "nota": 8.75,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 88
+    },
+    {
+      "anio": 2025,
+      "titulo_original": "Metroid Zero Mission",
+      "titulo": "Metroid: Zero Mission",
+      "estado": "Terminado",
+      "nota": 8.5,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 85
+    },
+    {
+      "anio": 2025,
+      "titulo_original": "Zelda Link's Awakening",
+      "titulo": "The Legend of Zelda: Link's Awakening",
+      "estado": "Terminado",
+      "nota": 7.5,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 75
+    },
+    {
+      "anio": 2025,
+      "titulo_original": "Donkey Kong Bananza",
+      "titulo": "Donkey Kong Bananza",
+      "estado": "Terminado",
+      "nota": 8.5,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 84
+    },
+    {
+      "anio": 2025,
+      "titulo_original": "Super Castlevania IV",
+      "titulo": "Super Castlevania IV",
+      "estado": "Terminado",
+      "nota": 7.5,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 75
+    },
+    {
+      "anio": 2025,
+      "titulo_original": "Metal Gear Solid",
+      "titulo": "Metal Gear Solid",
+      "estado": "Terminado",
+      "nota": 9.5,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 94
+    },
+    {
+      "anio": 2025,
+      "titulo_original": "Suikoden I",
+      "titulo": "Suikoden",
+      "estado": "Terminado",
+      "nota": 6.5,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 65
+    },
+    {
+      "anio": 2025,
+      "titulo_original": "Resident Evil 4 (2005)",
+      "titulo": "Resident Evil 4 (2005)",
+      "estado": "Terminado",
+      "nota": 8.5,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 84
+    },
+    {
+      "anio": 2025,
+      "titulo_original": "Metal Gear Solid 2",
+      "titulo": "Metal Gear Solid 2: Sons of Liberty",
+      "estado": "Terminado",
+      "nota": 9.0,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 90
+    },
+    {
+      "anio": 2025,
+      "titulo_original": "Dispatch",
+      "titulo": "Dispatch",
+      "estado": "Terminado",
+      "nota": 8.0,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 81
+    },
+    {
+      "anio": 2025,
+      "titulo_original": "Until Dawn",
+      "titulo": "Until Dawn",
+      "estado": "Terminado",
+      "nota": 7.75,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 77
+    },
+    {
+      "anio": 2025,
+      "titulo_original": "Silent Hill 2 Remake",
+      "titulo": "Silent Hill 2 (2024)",
+      "estado": "Terminado",
+      "nota": 8.0,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 80
+    },
+    {
+      "anio": 2025,
+      "titulo_original": "Super Mario Galaxy",
+      "titulo": "Super Mario Galaxy",
+      "estado": "Terminado",
+      "nota": 8.25,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 83
+    },
+    {
+      "anio": 2026,
+      "titulo_original": "Mafia the Old Country",
+      "titulo": "Mafia: The Old Country",
+      "estado": "Terminado",
+      "nota": 8.25,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 82
+    },
+    {
+      "anio": 2026,
+      "titulo_original": "Mario Paper y la Puerta Milenaria",
+      "titulo": "Paper Mario: The Thousand-Year Door",
+      "estado": "Terminado",
+      "nota": 7.0,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 70
+    },
+    {
+      "anio": 2026,
+      "titulo_original": "Bioshock 2",
+      "titulo": "BioShock 2",
+      "estado": "Terminado",
+      "nota": 8.5,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 85
+    },
+    {
+      "anio": 2026,
+      "titulo_original": "Assassins Creed 2",
+      "titulo": "Assassin's Creed II",
+      "estado": "Terminado",
+      "nota": 8.0,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 80
+    },
+    {
+      "anio": 2026,
+      "titulo_original": "Monster Hunter Stories 3",
+      "titulo": "Monster Hunter Stories 3: Twisted Reflection",
+      "estado": "Terminado",
+      "nota": 8.25,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 82
+    },
+    {
+      "anio": 2026,
+      "titulo_original": "Dante's Inferno",
+      "titulo": "Dante's Inferno",
+      "estado": "Terminado",
+      "nota": 6.5,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 65
+    },
+    {
+      "anio": 2026,
+      "titulo_original": "Skyrim",
+      "titulo": "The Elder Scrolls V: Skyrim",
+      "estado": "Terminado",
+      "nota": 8.5,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 86
+    },
+    {
+      "anio": 2026,
+      "titulo_original": "Gran Turismo 7",
+      "titulo": "Gran Turismo 7",
+      "estado": "Terminado",
+      "nota": 9.25,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 92
+    },
+    {
+      "anio": 2026,
+      "titulo_original": "The hundred line Last Defence Academy",
+      "titulo": "The Hundred Line: Last Defense Academy",
+      "estado": "Terminado",
+      "nota": 8.0,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 80
+    },
+    {
+      "anio": 2026,
+      "titulo_original": "Final Fantasy X",
+      "titulo": "Final Fantasy X",
+      "estado": "Terminado",
+      "nota": 9.0,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": 90
+    },
+    {
+      "anio": 2026,
+      "titulo_original": "Final Fantasy VII Remake",
+      "titulo": "Final Fantasy VII Remake",
+      "estado": "Abandonado",
+      "nota": null,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": null
+    },
+    {
+      "anio": 2026,
+      "titulo_original": "Persona 5 Royal",
+      "titulo": "Persona 5 Royal",
+      "estado": "Pausado",
+      "nota": null,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "horas_jugadas": 60,
+      "nota_original_100": null
+    },
+    {
+      "anio": 2026,
+      "titulo_original": "Fire emblem fortunes weave",
+      "titulo": "Fire Emblem: Fortune's Weave",
+      "estado": "Abandonado",
+      "nota": null,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": null
+    },
+    {
+      "anio": 2026,
+      "titulo_original": "Replaced",
+      "titulo": "REPLACED",
+      "estado": "Abandonado",
+      "nota": null,
+      "plataforma": null,
+      "pendiente_confirmar": false,
+      "nota_original_100": null
+    },
+    {
+      "anio": 2026,
+      "titulo_original": "Prince of persia the last crown",
+      "titulo": "Prince of Persia: The Lost Crown",
+      "estado": "Abandonado",
+      "nota": null,
+      "plataforma": null,
+      "pendiente_confirmar": true,
+      "nota_original_100": null
+    },
+    {
+      "anio": 2026,
+      "titulo_original": "American Arcadia",
+      "titulo": "American Arcadia",
+      "estado": "Abandonado",
+      "nota": null,
+      "plataforma": null,
+      "pendiente_confirmar": true,
+      "nota_original_100": null
+    }
+  ],
+  "escala_nota": "1 a 10, pasos de 0,25"
+}

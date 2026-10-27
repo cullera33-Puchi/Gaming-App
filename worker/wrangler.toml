@@ -1,0 +1,12 @@
+name = "backlog-juegos"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+
+[vars]
+# Orígenes que pueden llamar al intermediario: la app publicada y el entorno local.
+ALLOWED_ORIGINS = "https://cullera33-puchi.github.io,http://localhost:5173"
+
+# Secretos (no van en el repositorio). Se cargan con:
+#   npx wrangler secret put TWITCH_CLIENT_ID
+#   npx wrangler secret put TWITCH_CLIENT_SECRET
+#   npx wrangler secret put APP_TOKEN

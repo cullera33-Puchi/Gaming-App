@@ -1,0 +1,1006 @@
+{
+  "version": 1,
+  "generado": "2026-10-27",
+  "partidas": [
+    {
+      "titulo": "Dead as Disco",
+      "estado": "Pendiente",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "...and Roger",
+      "estado": "Pendiente",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Arco",
+      "estado": "Pendiente",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Chained Echoes",
+      "estado": "Pendiente",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Final Fantasy XII: The Zodiac Age",
+      "estado": "Pendiente",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Half-Life",
+      "estado": "Pendiente",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Half-Life 2",
+      "estado": "Pendiente",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Persona 3",
+      "estado": "Pendiente",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": null,
+      "revisar": "Confirmar versión (Portable, FES o Reload)"
+    },
+    {
+      "titulo": "The Blood of Dawnwalker",
+      "estado": "Pendiente",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": null,
+      "revisar": "Confirmar si está comprado o es Deseado"
+    },
+    {
+      "titulo": "Pragmata",
+      "estado": "Pendiente",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": null,
+      "revisar": "Confirmar si está comprado o es Deseado"
+    },
+    {
+      "titulo": "Assassin's Creed IV: Black Flag",
+      "estado": "Pendiente",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Denshattack!",
+      "estado": "Pendiente",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": null,
+      "revisar": "Confirmar título"
+    },
+    {
+      "titulo": "Dragon Quest XI S",
+      "estado": "Pendiente",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Dragon Quest VII",
+      "estado": "Pendiente",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": null,
+      "revisar": "Confirmar versión (original o Reimagined)"
+    },
+    {
+      "titulo": "The First Berserker: Khazan",
+      "estado": "Pendiente",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": null,
+      "revisar": "Confirmar título (escrito Kazan)"
+    },
+    {
+      "titulo": "Mario Tennis Aces",
+      "estado": "Pendiente",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Kirby: Planet Robobot",
+      "estado": "Pendiente",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "The Legend of Zelda: The Wind Waker HD",
+      "estado": "Pendiente",
+      "plataforma": "Switch 2",
+      "plataforma_original": "Switch",
+      "horas_estimadas_min": 30,
+      "horas_estimadas_max": 30,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Dragon Ball Z: Kakarot",
+      "estado": "Pendiente",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "God of War II",
+      "estado": "Pendiente",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "God of War: Chains of Olympus",
+      "estado": "Pendiente",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "God of War III",
+      "estado": "Pendiente",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "God of War: Ghost of Sparta",
+      "estado": "Pendiente",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "God of War: Ascension",
+      "estado": "Pendiente",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "God of War (2018)",
+      "estado": "Pendiente",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": null,
+      "revisar": "Ya terminado en 2022: confirmar rejugada o quitar"
+    },
+    {
+      "titulo": "God of War Ragnarök",
+      "estado": "Pendiente",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": null,
+      "revisar": "Ya terminado en 2023: confirmar rejugada o quitar"
+    },
+    {
+      "titulo": "God of War Ragnarök: Valhalla",
+      "estado": "Pendiente",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Light Crusader",
+      "estado": "Pendiente",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Guardian Heroes",
+      "estado": "Pendiente",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Dragon Quest III HD-2D Remake",
+      "estado": "Pendiente",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": null,
+      "revisar": "Confirmar versión"
+    },
+    {
+      "titulo": "Dragon Quest I",
+      "estado": "Pendiente",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": null,
+      "revisar": "Confirmar versión"
+    },
+    {
+      "titulo": "Dragon Quest II",
+      "estado": "Pendiente",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": null,
+      "revisar": "Confirmar versión"
+    },
+    {
+      "titulo": "Dragon Quest V",
+      "estado": "Pendiente",
+      "plataforma": "Retroid",
+      "plataforma_original": "Retroid",
+      "horas_estimadas_min": 30,
+      "horas_estimadas_max": 30,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Dragon Quest VIII",
+      "estado": "Pendiente",
+      "plataforma": "Retroid",
+      "plataforma_original": "Retroid",
+      "horas_estimadas_min": 60,
+      "horas_estimadas_max": 60,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Final Fantasy IX",
+      "estado": "Pendiente",
+      "plataforma": "Switch 2",
+      "plataforma_original": "Switch",
+      "horas_estimadas_min": 40,
+      "horas_estimadas_max": 40,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Final Fantasy VIII",
+      "estado": "Pendiente",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Final Fantasy VII",
+      "estado": "Pendiente",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": null,
+      "revisar": "Original de 1997"
+    },
+    {
+      "titulo": "Persona 4 Golden",
+      "estado": "Pendiente",
+      "plataforma": "Switch 2",
+      "plataforma_original": "Switch",
+      "horas_estimadas_min": 60,
+      "horas_estimadas_max": 80,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Shin Megami Tensei IV",
+      "estado": "Pendiente",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Shin Megami Tensei IV: Apocalypse",
+      "estado": "Pendiente",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Shin Megami Tensei III: Nocturne HD Remaster",
+      "estado": "Pendiente",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Shin Megami Tensei V",
+      "estado": "Pendiente",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "007 First Light",
+      "estado": "Pendiente",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": null,
+      "revisar": "Confirmar si está comprado o es Deseado"
+    },
+    {
+      "titulo": "A Short Hike",
+      "estado": "Pendiente",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Return of the Obra Dinn",
+      "estado": "Pendiente",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Transistor",
+      "estado": "Pendiente",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Bastion",
+      "estado": "Pendiente",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Star Ocean First Departure R",
+      "estado": "Pendiente",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Star Ocean The Second Story R",
+      "estado": "Pendiente",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Escape from Ever After",
+      "estado": "Pendiente",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Black Myth: Wukong",
+      "estado": "Pendiente",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Outer Wilds",
+      "estado": "Pendiente",
+      "plataforma": "PS5 Pro",
+      "plataforma_original": "PS5",
+      "horas_estimadas_min": 15,
+      "horas_estimadas_max": 20,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "The Drifter",
+      "estado": "Pendiente",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Tales of Arise",
+      "estado": "Pendiente",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Ball x Pit",
+      "estado": "Pendiente",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Fallout 4: Anniversary Edition",
+      "estado": "Pendiente",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Super Mario Galaxy 2",
+      "estado": "Pendiente",
+      "plataforma": "ROG Ally",
+      "plataforma_original": "ASUS",
+      "horas_estimadas_min": 15,
+      "horas_estimadas_max": 20,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Baldur's Gate 3",
+      "estado": "Pausado",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": 25,
+      "revisar": null
+    },
+    {
+      "titulo": "NieR:Automata",
+      "estado": "Pendiente",
+      "plataforma": "PS5 Pro",
+      "plataforma_original": "PS5",
+      "horas_estimadas_min": 30,
+      "horas_estimadas_max": 40,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Bloodborne",
+      "estado": "Pendiente",
+      "plataforma": "PS5 Pro",
+      "plataforma_original": "PS5",
+      "horas_estimadas_min": 30,
+      "horas_estimadas_max": 40,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Portal",
+      "estado": "Pendiente",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": null,
+      "revisar": "Ya terminado en 2023: confirmar rejugada o quitar"
+    },
+    {
+      "titulo": "Portal 2",
+      "estado": "Pendiente",
+      "plataforma": "Switch 2",
+      "plataforma_original": "Switch",
+      "horas_estimadas_min": 8,
+      "horas_estimadas_max": 10,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Pikmin 4",
+      "estado": "Pendiente",
+      "plataforma": "Switch 2",
+      "plataforma_original": "Switch",
+      "horas_estimadas_min": 20,
+      "horas_estimadas_max": 30,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Inscryption",
+      "estado": "Pendiente",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Triangle Strategy",
+      "estado": "Pendiente",
+      "plataforma": null,
+      "plataforma_original": null,
+      "horas_estimadas_min": null,
+      "horas_estimadas_max": null,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Golden Sun",
+      "estado": "Pendiente",
+      "plataforma": "Retroid",
+      "plataforma_original": "Retroid",
+      "horas_estimadas_min": 20,
+      "horas_estimadas_max": 25,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Golden Sun: The Lost Age",
+      "estado": "Pendiente",
+      "plataforma": "Retroid",
+      "plataforma_original": "Retroid",
+      "horas_estimadas_min": 30,
+      "horas_estimadas_max": 35,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Castlevania: Symphony of the Night",
+      "estado": "Pendiente",
+      "plataforma": "Retroid",
+      "plataforma_original": "Retroid",
+      "horas_estimadas_min": 10,
+      "horas_estimadas_max": 12,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Undertale",
+      "estado": "Pendiente",
+      "plataforma": "Switch 2",
+      "plataforma_original": "Switch",
+      "horas_estimadas_min": 6,
+      "horas_estimadas_max": 8,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Super Metroid",
+      "estado": "Pendiente",
+      "plataforma": "Retroid",
+      "plataforma_original": "Retroid",
+      "horas_estimadas_min": 10,
+      "horas_estimadas_max": 10,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Super Mario Bros. 3",
+      "estado": "Pendiente",
+      "plataforma": "Retroid",
+      "plataforma_original": "Retroid",
+      "horas_estimadas_min": 5,
+      "horas_estimadas_max": 6,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Super Mario World",
+      "estado": "Pendiente",
+      "plataforma": "Retroid",
+      "plataforma_original": "Retroid",
+      "horas_estimadas_min": 6,
+      "horas_estimadas_max": 8,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Eternal Darkness: Sanity's Requiem",
+      "estado": "Pendiente",
+      "plataforma": "ROG Ally",
+      "plataforma_original": "ASUS",
+      "horas_estimadas_min": 15,
+      "horas_estimadas_max": 20,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Xenogears",
+      "estado": "Pendiente",
+      "plataforma": "Retroid",
+      "plataforma_original": "Retroid",
+      "horas_estimadas_min": 60,
+      "horas_estimadas_max": 70,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Metroid Fusion",
+      "estado": "Pendiente",
+      "plataforma": "Retroid",
+      "plataforma_original": "Retroid",
+      "horas_estimadas_min": 8,
+      "horas_estimadas_max": 8,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "The Legend of Zelda: A Link to the Past",
+      "estado": "Pendiente",
+      "plataforma": "Retroid",
+      "plataforma_original": "Retroid",
+      "horas_estimadas_min": 15,
+      "horas_estimadas_max": 15,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Resident Evil 2 (2019)",
+      "estado": "Pendiente",
+      "plataforma": "PS5 Pro",
+      "plataforma_original": "PS5",
+      "horas_estimadas_min": 10,
+      "horas_estimadas_max": 12,
+      "horas_jugadas": null,
+      "revisar": "Aparecía dos veces (Remake y sin Remake): unificado"
+    },
+    {
+      "titulo": "The Legend of Zelda: Twilight Princess HD",
+      "estado": "Pendiente",
+      "plataforma": "ROG Ally",
+      "plataforma_original": "ASUS",
+      "horas_estimadas_min": 40,
+      "horas_estimadas_max": 40,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "EarthBound",
+      "estado": "Pendiente",
+      "plataforma": "Retroid",
+      "plataforma_original": "Retroid",
+      "horas_estimadas_min": 25,
+      "horas_estimadas_max": 25,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Suikoden II",
+      "estado": "Pendiente",
+      "plataforma": "Retroid",
+      "plataforma_original": "Retroid",
+      "horas_estimadas_min": 40,
+      "horas_estimadas_max": 40,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Batman: Arkham Knight",
+      "estado": "Pendiente",
+      "plataforma": "PS5 Pro",
+      "plataforma_original": "PS5",
+      "horas_estimadas_min": 20,
+      "horas_estimadas_max": 25,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Metroid Prime Remastered",
+      "estado": "Pendiente",
+      "plataforma": "Switch 2",
+      "plataforma_original": "Switch",
+      "horas_estimadas_min": 15,
+      "horas_estimadas_max": 20,
+      "horas_jugadas": null,
+      "revisar": "Ya terminado en 2023: confirmar rejugada o quitar"
+    },
+    {
+      "titulo": "Metal Gear Solid 3: Snake Eater",
+      "estado": "Pendiente",
+      "plataforma": "Switch 2",
+      "plataforma_original": "Switch",
+      "horas_estimadas_min": 15,
+      "horas_estimadas_max": 20,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "The Legend of Zelda: The Minish Cap",
+      "estado": "Pendiente",
+      "plataforma": "Retroid",
+      "plataforma_original": "Retroid",
+      "horas_estimadas_min": 15,
+      "horas_estimadas_max": 15,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Okami HD",
+      "estado": "Pendiente",
+      "plataforma": "Switch 2",
+      "plataforma_original": "Switch",
+      "horas_estimadas_min": 35,
+      "horas_estimadas_max": 40,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Conker's Bad Fur Day",
+      "estado": "Pendiente",
+      "plataforma": "Retroid",
+      "plataforma_original": "Retroid",
+      "horas_estimadas_min": 12,
+      "horas_estimadas_max": 15,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Resident Evil 3 (2020)",
+      "estado": "Pendiente",
+      "plataforma": "PS5 Pro",
+      "plataforma_original": "PS5",
+      "horas_estimadas_min": 6,
+      "horas_estimadas_max": 8,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Perfect Dark",
+      "estado": "Pendiente",
+      "plataforma": "Retroid",
+      "plataforma_original": "Retroid",
+      "horas_estimadas_min": 10,
+      "horas_estimadas_max": 10,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Shenmue II",
+      "estado": "Pendiente",
+      "plataforma": "Retroid",
+      "plataforma_original": "Retroid",
+      "horas_estimadas_min": 30,
+      "horas_estimadas_max": 30,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Metroid Prime 2: Echoes",
+      "estado": "Pendiente",
+      "plataforma": "ROG Ally",
+      "plataforma_original": "ASUS",
+      "horas_estimadas_min": 20,
+      "horas_estimadas_max": 20,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Baten Kaitos I: Eternal Wings and the Lost Ocean",
+      "estado": "Pendiente",
+      "plataforma": "Switch 2",
+      "plataforma_original": "Switch",
+      "horas_estimadas_min": 50,
+      "horas_estimadas_max": 50,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Beyond Good & Evil",
+      "estado": "Pendiente",
+      "plataforma": "ROG Ally",
+      "plataforma_original": "ASUS",
+      "horas_estimadas_min": 15,
+      "horas_estimadas_max": 20,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Prince of Persia: The Sands of Time",
+      "estado": "Pendiente",
+      "plataforma": "ROG Ally",
+      "plataforma_original": "ASUS",
+      "horas_estimadas_min": 10,
+      "horas_estimadas_max": 12,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Fire Emblem: The Sacred Stones",
+      "estado": "Pendiente",
+      "plataforma": "Retroid",
+      "plataforma_original": "Retroid",
+      "horas_estimadas_min": 20,
+      "horas_estimadas_max": 20,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Hotel Dusk: Room 215",
+      "estado": "Pendiente",
+      "plataforma": "Retroid",
+      "plataforma_original": "Retroid",
+      "horas_estimadas_min": 15,
+      "horas_estimadas_max": 15,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Metroid Prime 3: Corruption",
+      "estado": "Pendiente",
+      "plataforma": "ROG Ally",
+      "plataforma_original": "ASUS",
+      "horas_estimadas_min": 20,
+      "horas_estimadas_max": 20,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Fire Emblem: Radiant Dawn",
+      "estado": "Pendiente",
+      "plataforma": "ROG Ally",
+      "plataforma_original": "ASUS",
+      "horas_estimadas_min": 40,
+      "horas_estimadas_max": 50,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "BioShock Infinite",
+      "estado": "Pendiente",
+      "plataforma": "PS5 Pro",
+      "plataforma_original": "PS5",
+      "horas_estimadas_min": 12,
+      "horas_estimadas_max": 15,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Metroid Dread",
+      "estado": "Pendiente",
+      "plataforma": "Switch 2",
+      "plataforma_original": "Switch",
+      "horas_estimadas_min": 12,
+      "horas_estimadas_max": 12,
+      "horas_jugadas": null,
+      "revisar": null
+    },
+    {
+      "titulo": "Baten Kaitos II: Beginning of the Great Wings",
+      "estado": "Pendiente",
+      "plataforma": "Switch 2",
+      "plataforma_original": "Switch",
+      "horas_estimadas_min": 30,
+      "horas_estimadas_max": 30,
+      "horas_jugadas": null,
+      "revisar": null
+    }
+  ]
+}
