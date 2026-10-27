@@ -18,7 +18,7 @@ const PESTANAS = [
 function Proximamente({ titulo, fase, texto }: { titulo: string; fase: number; texto: string }) {
   return (
     <>
-      <Cabecera titulo={titulo} />
+      <Cabecera titulo={titulo} grande />
       <section className="vacio">
         <h2>Llega en la fase {fase}</h2>
         <p>{texto}</p>
@@ -50,25 +50,30 @@ function Pantalla({ ruta }: { ruta: Ruta }) {
 
 export function App() {
   const ruta = useRuta()
-  const activa = ruta.pantalla === 'juego' || ruta.pantalla === 'revision' ? 'biblioteca' : ruta.pantalla
+  const activa = ruta.pantalla === 'juego' || ruta.pantalla === 'revision' ? 'biblioteca' : ruta.pantalla === 'alta' ? '' : ruta.pantalla
   return (
     <div className="app">
       <main className="contenido">
         <Pantalla ruta={ruta} />
       </main>
-      {ruta.pantalla !== 'alta' && (
-        <button className="fab" onClick={() => ir('alta')} aria-label="Añadir juego">
+      <div className="barra-inferior">
+        <nav className="tabbar vidrio" aria-label="Secciones">
+          {PESTANAS.map((p) => (
+            <a key={p.ruta} href={`#/${p.ruta}`} className={activa === p.ruta ? 'activa' : ''} aria-current={activa === p.ruta ? 'page' : undefined}>
+              <Icono nombre={p.icono} />
+              <span>{p.nombre}</span>
+            </a>
+          ))}
+        </nav>
+        <button
+          className={`boton-anadir vidrio ${ruta.pantalla === 'alta' ? 'oculto' : ''}`}
+          onClick={() => ir('alta')}
+          aria-label="Añadir juego"
+          tabIndex={ruta.pantalla === 'alta' ? -1 : 0}
+        >
           <Icono nombre="mas" />
         </button>
-      )}
-      <nav className="tabbar" aria-label="Secciones">
-        {PESTANAS.map((p) => (
-          <a key={p.ruta} href={`#/${p.ruta}`} className={activa === p.ruta ? 'activa' : ''} aria-current={activa === p.ruta ? 'page' : undefined}>
-            <Icono nombre={p.icono} />
-            <span>{p.nombre}</span>
-          </a>
-        ))}
-      </nav>
+      </div>
     </div>
   )
 }

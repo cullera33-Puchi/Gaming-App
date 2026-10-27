@@ -3,7 +3,7 @@ import { actualizarHoras, actualizarPartida, aplicarCambioEstado, deshacer } fro
 import { useAjustes } from '../lib/ajustes'
 import { ahoraIso } from '../lib/texto'
 import { ESTADOS_FASE_1, MOTIVOS_ABANDONO, type Estado, type Partida, type Retomar } from '../lib/types'
-import { Aviso, Chips, ChipsMultiples, Hoja } from './comunes'
+import { Aviso, Chips, ChipsMultiples, Hoja, Interruptor } from './comunes'
 import { SelectorNota } from './SelectorNota'
 
 const RETOMAR: Retomar[] = ['si', 'no', 'quiza']
@@ -27,7 +27,7 @@ export function HojaAbandono({ partida, antes, onCerrar }: { partida: Partida; a
   }
 
   return (
-    <Hoja titulo="Abandonado" onCerrar={onCerrar}>
+    <Hoja titulo="Abandonado" onCerrar={onCerrar} onConfirmar={guardar}>
       <Aviso tipo="ok">
         Guardado con fecha de hoy{partida.horas != null ? ` y ${partida.horas} h` : ''}. Lo que sigue es opcional.
       </Aviso>
@@ -43,20 +43,15 @@ export function HojaAbandono({ partida, antes, onCerrar }: { partida: Partida; a
         <span className="etiqueta">¿Retomarlo?</span>
         <Chips opciones={RETOMAR} valor={retomar} onCambio={setRetomar} etiqueta={(r) => ETIQUETA_RETOMAR[r]} />
       </div>
-      <div className="acciones">
-        <button
-          className="btn fantasma"
-          onClick={async () => {
-            await deshacer(antes)
-            onCerrar()
-          }}
-        >
-          Deshacer
-        </button>
-        <button className="btn primario" onClick={guardar}>
-          Guardar
-        </button>
-      </div>
+      <button
+        className="btn gris ancho"
+        onClick={async () => {
+          await deshacer(antes)
+          onCerrar()
+        }}
+      >
+        Deshacer el abandono
+      </button>
     </Hoja>
   )
 }
@@ -64,8 +59,12 @@ export function HojaAbandono({ partida, antes, onCerrar }: { partida: Partida; a
 export function HojaHoras({ partida, onCerrar }: { partida: Partida; onCerrar: () => void }) {
   const [valor, setValor] = useState(partida.horas != null ? String(partida.horas) : '')
   const sumar = (h: number) => setValor(String((numero(valor) ?? 0) + h))
+  const guardar = async () => {
+    await actualizarHoras(partida, numero(valor))
+    onCerrar()
+  }
   return (
-    <Hoja titulo="Horas jugadas" onCerrar={onCerrar}>
+    <Hoja titulo="Horas jugadas" onCerrar={onCerrar} onConfirmar={guardar}>
       <div className="campo">
         <label className="etiqueta" htmlFor="horas">
           Total de horas
@@ -78,17 +77,6 @@ export function HojaHoras({ partida, onCerrar }: { partida: Partida; onCerrar: (
             +{String(h).replace('.', ',')} h
           </button>
         ))}
-      </div>
-      <div className="acciones">
-        <button
-          className="btn primario"
-          onClick={async () => {
-            await actualizarHoras(partida, numero(valor))
-            onCerrar()
-          }}
-        >
-          Guardar
-        </button>
       </div>
     </Hoja>
   )
@@ -133,7 +121,8 @@ export function EditorPartida({ partida, onCerrar }: { partida: Partida; onCerra
   }
 
   return (
-    <Hoja titulo="Editar partida" onCerrar={onCerrar}>
+    <Hoja titulo="Editar partida" onCerrar={onCerrar} onConfirmar={guardar}>
+      {error && <Aviso tipo="error">{error}</Aviso>}
       <div className="campo">
         <span className="etiqueta">Plataforma</span>
         <Chips opciones={plataformas} valor={p.plataforma} onCambio={(v) => cambiar({ plataforma: v })} />
@@ -191,10 +180,7 @@ export function EditorPartida({ partida, onCerrar }: { partida: Partida; onCerra
         <SelectorNota valor={p.nota} onCambio={(nota) => cambiar({ nota })} />
       </div>
       {p.estado === 'Terminado' && (
-        <label className="check">
-          <input type="checkbox" checked={p.completado_100 === true} onChange={(e) => cambiar({ completado_100: e.target.checked })} />
-          Completado al 100%
-        </label>
+        <Interruptor etiqueta="Completado al 100%" valor={p.completado_100 === true} onCambio={(v) => cambiar({ completado_100: v })} />
       )}
       {p.estado === 'Abandonado' && (
         <>
@@ -222,15 +208,6 @@ export function EditorPartida({ partida, onCerrar }: { partida: Partida; onCerra
           </button>
         </Aviso>
       )}
-      {error && <Aviso tipo="error">{error}</Aviso>}
-      <div className="acciones">
-        <button className="btn fantasma" onClick={onCerrar}>
-          Cancelar
-        </button>
-        <button className="btn primario" onClick={guardar}>
-          Guardar
-        </button>
-      </div>
     </Hoja>
   )
 }

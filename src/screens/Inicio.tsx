@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Aviso, Cabecera, EtiquetaEstado, Portada } from '../components/comunes'
+import { Aviso, Cabecera, EtiquetaEstado, Icono, Portada } from '../components/comunes'
 import { HojaAbandono, HojaHoras } from '../components/HojasPartida'
 import { abandonar, cambiarEstado, cargarDatosIniciales } from '../lib/acciones'
 import { calcularRevision, diasDesde, resumenAnio, totalRevision } from '../lib/consultas'
@@ -32,7 +32,7 @@ export function Inicio() {
   if (partidas.length === 0) {
     return (
       <>
-        <Cabecera titulo="Inicio" />
+        <Cabecera titulo="Inicio" grande />
         <section className="vacio">
           <h2>Sin datos todavía</h2>
           <p>Carga el histórico 2021 a 2026 y el backlog para empezar.</p>
@@ -96,11 +96,11 @@ export function Inicio() {
           </div>
         </button>
         <div className="en-curso-acciones">
-          <button className="btn pequeno" onClick={() => setHorasDe(p)}>
+          <button className="btn pequeno gris" onClick={() => setHorasDe(p)}>
             Horas
           </button>
           <select
-            className="pequeno"
+            className="menu"
             aria-label="Cambiar estado"
             value={p.estado}
             onChange={(e) => cambiarEstado(p, e.target.value as Estado)}
@@ -109,7 +109,7 @@ export function Inicio() {
               <option key={e}>{e}</option>
             ))}
           </select>
-          <button className="btn pequeno peligro" onClick={() => pulsarAbandonar(p)}>
+          <button className="btn pequeno gris peligro-texto" onClick={() => pulsarAbandonar(p)}>
             Abandonar
           </button>
         </div>
@@ -119,7 +119,7 @@ export function Inicio() {
 
   return (
     <>
-      <Cabecera titulo="Inicio" />
+      <Cabecera titulo="Inicio" grande />
       <section className="seccion">
         <h2>Resumen {anio}</h2>
         <div className="stats">
@@ -143,7 +143,7 @@ export function Inicio() {
           <span>
             <strong>Carga inicial por completar.</strong> {enumerar(partesRevision)}.
           </span>
-          <span aria-hidden="true">›</span>
+          <Icono nombre="chevron" />
         </button>
       )}
 
@@ -171,6 +171,7 @@ export function Inicio() {
                       </span>
                     </span>
                     <EtiquetaEstado estado={p.estado} />
+                    <Icono nombre="chevron" />
                   </button>
                 </li>
               )

@@ -1,5 +1,5 @@
 import { ResultadoIgdb } from '../components/BuscadorIgdb'
-import { Aviso, Cabecera, EtiquetaEstado, Icono, Portada } from '../components/comunes'
+import { Aviso, BotonAtras, Cabecera, EtiquetaEstado, Portada } from '../components/comunes'
 import { actualizarPartida, dejarSinIgdb, vincularIgdb } from '../lib/acciones'
 import { useAjustes } from '../lib/ajustes'
 import { calcularRevision } from '../lib/consultas'
@@ -42,11 +42,7 @@ export function Revision() {
     <>
       <Cabecera
         titulo="Revisión de la carga"
-        izquierda={
-          <button className="btn-icono" onClick={() => volver('inicio')} aria-label="Volver">
-            <Icono nombre="atras" />
-          </button>
-        }
+        izquierda={<BotonAtras onClick={() => volver('inicio')} />}
       />
 
       <section className="seccion">

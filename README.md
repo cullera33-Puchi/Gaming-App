@@ -14,6 +14,7 @@ Estado: **fase 1 (Base)** construida.
 - Revisión de la carga: búsqueda masiva en IGDB, títulos sin coincidencia clara, avisos por confirmar y asignación de plataforma por lotes.
 - Exportación e importación de una copia JSON.
 - Funciona sin conexión; las portadas quedan en caché.
+- Diseño visual de iOS 26 y 27 (Liquid Glass): barra de pestañas flotante de cristal, títulos grandes que se pliegan al hacer scroll, listas agrupadas, hojas inferiores con ✕ y ✓, colores del sistema y modo claro y oscuro automático.
 
 ## Puesta en marcha
 

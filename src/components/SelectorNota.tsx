@@ -1,3 +1,4 @@
+import type { CSSProperties } from 'react'
 import { formatoNota, NOTA_MAX, NOTA_MIN, NOTA_PASO, redondearNota } from '../lib/nota'
 
 /** Selector de 1 a 10 en pasos de 0,25, con opción de dejarlo sin nota. */
@@ -24,6 +25,7 @@ export function SelectorNota({ valor, onCambio }: { valor: number | null; onCamb
         value={actual}
         aria-label="Nota"
         className={valor == null ? 'apagado' : ''}
+        style={{ '--p': `${((actual - NOTA_MIN) / (NOTA_MAX - NOTA_MIN)) * 100}%` } as CSSProperties}
         onChange={(e) => onCambio(Number(e.target.value))}
       />
       {valor != null && (

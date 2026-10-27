@@ -39,7 +39,7 @@ export function Ajustes() {
 
   return (
     <>
-      <Cabecera titulo="Ajustes" />
+      <Cabecera titulo="Ajustes" grande />
 
       <section className="seccion">
         <h2>Plataformas</h2>

@@ -98,8 +98,9 @@ export function Biblioteca() {
     <>
       <Cabecera
         titulo="Biblioteca"
+        grande
         derecha={
-          <button className="btn pequeno fantasma" onClick={() => setSeleccion(seleccion ? null : new Set())}>
+          <button className="btn-nav-texto vidrio" onClick={() => setSeleccion(seleccion ? null : new Set())}>
             {seleccion ? 'Cancelar' : 'Seleccionar'}
           </button>
         }
@@ -117,39 +118,39 @@ export function Biblioteca() {
           ))}
         </div>
         <div className="selects">
-          <select aria-label="Plataforma" value={f.plataforma} onChange={(e) => cambiar({ plataforma: e.target.value })}>
+          <select className={`menu ${f.plataforma ? 'activo' : ''}`} aria-label="Plataforma" value={f.plataforma} onChange={(e) => cambiar({ plataforma: e.target.value })}>
             <option value="">Plataforma</option>
             <option value={SIN_PLATAFORMA}>Sin plataforma</option>
             {ajustes.plataformas.map((p) => (
               <option key={p}>{p}</option>
             ))}
           </select>
-          <select aria-label="Género" value={f.genero} onChange={(e) => cambiar({ genero: e.target.value })}>
+          <select className={`menu ${f.genero ? 'activo' : ''}`} aria-label="Género" value={f.genero} onChange={(e) => cambiar({ genero: e.target.value })}>
             <option value="">Género</option>
             {opciones.generos.map((g) => (
               <option key={g}>{g}</option>
             ))}
           </select>
-          <select aria-label="Año" value={f.anio} onChange={(e) => cambiar({ anio: e.target.value })}>
+          <select className={`menu ${f.anio ? 'activo' : ''}`} aria-label="Año" value={f.anio} onChange={(e) => cambiar({ anio: e.target.value })}>
             <option value="">Año</option>
             {opciones.anios.map((a) => (
               <option key={a}>{a}</option>
             ))}
           </select>
-          <select aria-label="Orden" value={f.orden} onChange={(e) => cambiar({ orden: e.target.value as Orden })}>
-            <option value="titulo">Por título</option>
-            <option value="nota">Por nota</option>
-            <option value="fecha">Por fecha</option>
+          <select className="menu" aria-label="Orden" value={f.orden} onChange={(e) => cambiar({ orden: e.target.value as Orden })}>
+            <option value="titulo">Orden: título</option>
+            <option value="nota">Orden: nota</option>
+            <option value="fecha">Orden: fecha</option>
           </select>
         </div>
       </div>
 
       {seleccion && (
         <div className="barra-lote">
-          <button className="btn pequeno fantasma" onClick={() => setSeleccion(new Set(filas.map(({ p }) => p.id)))}>
+          <button className="btn pequeno simple" onClick={() => setSeleccion(new Set(filas.map(({ p }) => p.id)))}>
             Todos ({filas.length})
           </button>
-          <select aria-label="Plataforma para la selección" value={plataformaLote} onChange={(e) => setPlataformaLote(e.target.value)}>
+          <select className="menu" aria-label="Plataforma para la selección" value={plataformaLote} onChange={(e) => setPlataformaLote(e.target.value)}>
             <option value="">Plataforma…</option>
             {ajustes.plataformas.map((p) => (
               <option key={p}>{p}</option>
@@ -173,7 +174,11 @@ export function Biblioteca() {
                 onClick={() => (seleccion ? alternar(p.id) : ir(`juego/${j.id}`))}
                 aria-pressed={seleccion ? marcada : undefined}
               >
-                {seleccion && <span className={`casilla ${marcada ? 'activa' : ''}`} aria-hidden="true" />}
+                {seleccion && (
+                  <span className={`casilla ${marcada ? 'activa' : ''}`} aria-hidden="true">
+                    {marcada && <Icono nombre="ok" />}
+                  </span>
+                )}
                 <Portada url={j.portada_url} titulo={j.titulo} />
                 <span className="fila-texto">
                   <span className="fila-titulo">{j.titulo}</span>
@@ -187,6 +192,7 @@ export function Biblioteca() {
                   <EtiquetaEstado estado={p.estado} />
                   {p.nota != null && <span className="nota">{formatoNota(p.nota)}</span>}
                 </span>
+                {!seleccion && <Icono nombre="chevron" />}
               </button>
             </li>
           )

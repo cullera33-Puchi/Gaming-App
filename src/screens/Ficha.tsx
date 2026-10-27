@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { BuscadorIgdb, ResultadoIgdb } from '../components/BuscadorIgdb'
-import { Aviso, Cabecera, Chips, EtiquetaEstado, Hoja, Icono, Portada } from '../components/comunes'
+import { Aviso, BotonAtras, Cabecera, Chips, EtiquetaEstado, Hoja, Icono, Portada } from '../components/comunes'
 import { EditorPartida, HojaAbandono, HojaHoras } from '../components/HojasPartida'
 import {
   abandonar,
@@ -34,8 +34,12 @@ function HojaNuevaPartida({ juego, onCerrar }: { juego: Juego; onCerrar: () => v
   const ajustes = useAjustes()
   const [plataforma, setPlataforma] = useState<string | null>(null)
   const [estado, setEstado] = useState<Estado>('Jugando')
+  const crear = async () => {
+    await nuevaPartida(juego.id, plataforma!, estado)
+    onCerrar()
+  }
   return (
-    <Hoja titulo="Nueva partida" onCerrar={onCerrar}>
+    <Hoja titulo="Nueva partida" onCerrar={onCerrar} onConfirmar={crear} confirmarDesactivado={!plataforma}>
       <p className="secundario">{juego.titulo}</p>
       <div className="campo">
         <span className="etiqueta">Plataforma</span>
@@ -44,18 +48,6 @@ function HojaNuevaPartida({ juego, onCerrar }: { juego: Juego; onCerrar: () => v
       <div className="campo">
         <span className="etiqueta">Estado</span>
         <Chips opciones={ESTADOS_FASE_1} valor={estado} onCambio={setEstado} />
-      </div>
-      <div className="acciones">
-        <button
-          className="btn primario"
-          disabled={!plataforma}
-          onClick={async () => {
-            await nuevaPartida(juego.id, plataforma!, estado)
-            onCerrar()
-          }}
-        >
-          Crear
-        </button>
       </div>
     </Hoja>
   )
@@ -66,8 +58,15 @@ function HojaEditarJuego({ juego, onCerrar }: { juego: Juego; onCerrar: () => vo
   const [portada, setPortada] = useState(juego.portada_url)
   const [deku, setDeku] = useState(juego.enlace_deku ?? '')
   const [error, setError] = useState<string | null>(null)
+  const guardar = async () => {
+    if (!titulo.trim()) return setError('El título no puede quedar vacío')
+    if (deku.trim() && !esEnlaceDekuValido(deku)) return setError('El enlace de Deku Deals debe ser de una ficha (…/items/…)')
+    await actualizarJuego(juego.id, { titulo: titulo.trim(), portada_url: portada, enlace_deku: deku.trim() || null })
+    onCerrar()
+  }
   return (
-    <Hoja titulo="Editar juego" onCerrar={onCerrar}>
+    <Hoja titulo="Editar juego" onCerrar={onCerrar} onConfirmar={guardar}>
+      {error && <Aviso tipo="error">{error}</Aviso>}
       <div className="campo">
         <label className="etiqueta" htmlFor="t">
           Título
@@ -81,20 +80,6 @@ function HojaEditarJuego({ juego, onCerrar }: { juego: Juego; onCerrar: () => vo
         </label>
         <input id="deku" type="url" placeholder="https://www.dekudeals.com/items/…" value={deku} onChange={(e) => setDeku(e.target.value)} />
         <span className="ayuda">Abre la búsqueda, entra en la ficha correcta y pega aquí su dirección.</span>
-      </div>
-      {error && <Aviso tipo="error">{error}</Aviso>}
-      <div className="acciones">
-        <button
-          className="btn primario"
-          onClick={async () => {
-            if (!titulo.trim()) return setError('El título no puede quedar vacío')
-            if (deku.trim() && !esEnlaceDekuValido(deku)) return setError('El enlace de Deku Deals debe ser de una ficha (…/items/…)')
-            await actualizarJuego(juego.id, { titulo: titulo.trim(), portada_url: portada, enlace_deku: deku.trim() || null })
-            onCerrar()
-          }}
-        >
-          Guardar
-        </button>
       </div>
     </Hoja>
   )
@@ -113,7 +98,7 @@ export function Ficha({ id }: { id: string }) {
   if (!juego) {
     return (
       <>
-        <Cabecera titulo="Juego" izquierda={<button className="btn-icono" onClick={() => volver()} aria-label="Volver"><Icono nombre="atras" /></button>} />
+        <Cabecera titulo="Juego" izquierda={<BotonAtras onClick={() => volver()} />} />
         <p className="vacio">Este juego ya no existe.</p>
       </>
     )
@@ -123,14 +108,10 @@ export function Ficha({ id }: { id: string }) {
   return (
     <>
       <Cabecera
-        titulo=""
-        izquierda={
-          <button className="btn-icono" onClick={() => volver()} aria-label="Volver">
-            <Icono nombre="atras" />
-          </button>
-        }
+        titulo={juego.titulo}
+        izquierda={<BotonAtras onClick={() => volver()} />}
         derecha={
-          <button className="btn pequeno fantasma" onClick={() => setHoja('juego')}>
+          <button className="btn-nav-texto vidrio" onClick={() => setHoja('juego')}>
             Editar
           </button>
         }
@@ -182,10 +163,10 @@ export function Ficha({ id }: { id: string }) {
             </ul>
           )}
           <div className="acciones">
-            <button className="btn pequeno fantasma" onClick={() => dejarSinIgdb(juego.id)}>
+            <button className="btn pequeno simple" onClick={() => dejarSinIgdb(juego.id)}>
               Dejar sin ficha
             </button>
-            <button className="btn pequeno" onClick={() => setHoja('igdb')}>
+            <button className="btn pequeno gris" onClick={() => setHoja('igdb')}>
               Buscar en IGDB
             </button>
           </div>
@@ -195,7 +176,7 @@ export function Ficha({ id }: { id: string }) {
       <section className="seccion">
         <div className="seccion-titulo">
           <h2>Partidas</h2>
-          <button className="btn pequeno" onClick={() => setHoja('nueva')}>
+          <button className="btn pequeno gris" onClick={() => setHoja('nueva')}>
             Nueva partida
           </button>
         </div>
@@ -262,7 +243,7 @@ export function Ficha({ id }: { id: string }) {
             )}
             <div className="acciones">
               <button
-                className="btn pequeno fantasma peligro-texto"
+                className="btn pequeno simple peligro-texto"
                 onClick={async () => {
                   if (confirm(partidas.length === 1 ? 'Es la única partida: se borra también el juego. ¿Continuar?' : '¿Borrar esta partida?')) {
                     await borrarPartida(p)
@@ -273,13 +254,13 @@ export function Ficha({ id }: { id: string }) {
                 Borrar
               </button>
               {(p.estado === 'Jugando' || p.estado === 'Pausado') && (
-                <button className="btn pequeno" onClick={() => setHorasDe(p)}>
+                <button className="btn pequeno gris" onClick={() => setHorasDe(p)}>
                   Horas
                 </button>
               )}
               {p.estado !== 'Terminado' && p.estado !== 'Abandonado' && (
                 <button
-                  className="btn pequeno peligro"
+                  className="btn pequeno gris peligro-texto"
                   onClick={async () => {
                     const antes = await abandonar(p)
                     setAbandono({ partida: { ...p, estado: 'Abandonado' }, antes })
@@ -299,11 +280,11 @@ export function Ficha({ id }: { id: string }) {
       <section className="seccion">
         <h2>Enlaces</h2>
         <div className="enlaces">
-          <a className="btn pequeno" href={enlaceDeku(juego.titulo, juego.enlace_deku)} target="_blank" rel="noopener noreferrer">
+          <a className="btn pequeno gris" href={enlaceDeku(juego.titulo, juego.enlace_deku)} target="_blank" rel="noopener noreferrer">
             Deku Deals <Icono nombre="enlace" />
           </a>
           {juego.igdb_url && (
-            <a className="btn pequeno" href={juego.igdb_url} target="_blank" rel="noopener noreferrer">
+            <a className="btn pequeno gris" href={juego.igdb_url} target="_blank" rel="noopener noreferrer">
               IGDB <Icono nombre="enlace" />
             </a>
           )}
@@ -311,13 +292,13 @@ export function Ficha({ id }: { id: string }) {
         <h3 className="subtitulo">Medios</h3>
         <div className="enlaces">
           {MEDIOS.map((m) => (
-            <a key={m.dominio} className="btn pequeno fantasma" href={enlaceMedio(juego.titulo, m.dominio)} target="_blank" rel="noopener noreferrer">
+            <a key={m.dominio} className="btn pequeno gris" href={enlaceMedio(juego.titulo, m.dominio)} target="_blank" rel="noopener noreferrer">
               {m.nombre}
             </a>
           ))}
         </div>
         {juego.igdb_estado === 'confirmado' && (
-          <button className="btn pequeno fantasma" onClick={() => setHoja('igdb')}>
+          <button className="btn pequeno simple" onClick={() => setHoja('igdb')}>
             Cambiar ficha de IGDB
           </button>
         )}

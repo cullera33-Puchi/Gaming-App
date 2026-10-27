@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { BuscadorIgdb } from '../components/BuscadorIgdb'
-import { Aviso, Cabecera, Chips, Icono, Portada } from '../components/comunes'
+import { Aviso, BotonAtras, Cabecera, Chips, Portada } from '../components/comunes'
 import { darDeAlta } from '../lib/acciones'
 import { useAjustes } from '../lib/ajustes'
 import { imagenAPortada } from '../lib/imagen'
@@ -24,7 +24,7 @@ export function CampoPortada({ valor, onCambio }: { valor: string | null; onCamb
               onCambio(e.target.value.trim() || null)
             }}
           />
-          <label className="btn pequeno">
+          <label className="btn pequeno gris">
             Elegir foto
             <input
               type="file"
@@ -71,11 +71,7 @@ export function Alta() {
     <>
       <Cabecera
         titulo="Añadir juego"
-        izquierda={
-          <button className="btn-icono" onClick={() => volver('inicio')} aria-label="Volver">
-            <Icono nombre="atras" />
-          </button>
-        }
+        izquierda={<BotonAtras onClick={() => volver('inicio')} />}
       />
       {!listo && (
         <section className="seccion">
